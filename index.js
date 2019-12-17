@@ -1,5 +1,7 @@
 
-const changeYourAnswers = (server, options = {}) => {
+const pkg = require('./package.json')
+
+const register = (server, options = {}) => {
   const { init } = options
   if (typeof init === 'function') {
     init()
@@ -52,8 +54,8 @@ const changeYourAnswers = (server, options = {}) => {
 }
 
 exports.plugin = {
-  name: 'defra-change-your-answers',
-  register: changeYourAnswers,
+  name: pkg.name,
+  register,
   once: true,
-  pkg: require('./package.json')
+  pkg
 }
