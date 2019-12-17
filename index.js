@@ -4,7 +4,7 @@ const pkg = require('./package.json')
 const register = (server, options = {}) => {
   const { init } = options
   if (typeof init === 'function') {
-    init()
+    init(server)
   }
 
   server.ext('onPostAuth', async (request, h) => {
