@@ -1,5 +1,9 @@
 # defra-hapi-change-answers
 Hapi plugin to deal with changing answers within a defra hapi web application
+[![Build Status](https://travis-ci.com/DEFRA/defra-hapi-change-answers.svg?branch=master)](https://travis-ci.com/DEFRA/defra-hapi-change-answers)
+[![Known Vulnerabilities](https://snyk.io/test/github/defra/defra-hapi-change-answers/badge.svg)](https://snyk.io/test/github/defra/defra-hapi-change-answers)
+[![Code Climate](https://codeclimate.com/github/DEFRA/defra-hapi-change-answers/badges/gpa.svg)](https://codeclimate.com/github/DEFRA/defra-hapi-change-answers)
+[![Test Coverage](https://codeclimate.com/github/DEFRA/defra-hapi-change-answers/badges/coverage.svg)](https://codeclimate.com/github/DEFRA/defra-hapi-change-answers/coverage)
 
 ## Installation
 
