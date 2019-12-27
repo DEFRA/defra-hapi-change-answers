@@ -11,3 +11,7 @@ script:
 after_script:
   - npm install -g codeclimate-test-reporter
   - codeclimate-test-reporter < lcov.info
+
+addons:
+  code_climate:
+    repo_token: cb5ec840585b58a9f4019559646d20f90d3d341249c8a2e598b2f2c7685e8025
