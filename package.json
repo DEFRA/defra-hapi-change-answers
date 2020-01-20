@@ -1,6 +1,6 @@
 {
   "name": "defra-hapi-change-answers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hapi plugin to deal with changing answers within a defra hapi web application",
   "author": "Department for Environment, Food & Rural Affairs",
   "license": "SEE LICENSE IN LICENSE",
@@ -30,11 +30,11 @@
   "homepage": "https://github.com/ajaxscape/defra-hapi-change-answers#readme",
   "dependencies": {},
   "devDependencies": {
-    "@hapi/code": "^7.0.0",
-    "@hapi/lab": "^21.0.0",
+    "@hapi/code": "^8.0.1",
+    "@hapi/lab": "^22.0.3",
     "codeclimate-test-reporter": "0.5.1",
-    "eslint": "^6.7.2",
-    "sinon": "^7.5.0",
+    "eslint": "^6.8.0",
+    "sinon": "^8.1.0",
     "standard": "^14.3.1"
   }
 }
